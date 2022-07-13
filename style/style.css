@@ -34,6 +34,33 @@ img{
     height: auto;
 }
 
-.container{
-    
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-nav__items {
+    display: flex;
+}
+
+.header-nav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: #4086d3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 5px;
 }
